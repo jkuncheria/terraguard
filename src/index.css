@@ -1,0 +1,67 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Import Eurostile Bold from Google Fonts alternative or use web-safe fallback */
+@import url('https://fonts.cdnfonts.com/css/eurostile');
+
+/* Apply Eurostile Bold as the default font for the entire site */
+body {
+  font-family: 'Eurostile', 'Eurostile Bold', 'Arial Black', 'Helvetica Neue', sans-serif;
+  font-weight: 700;
+}
+
+/* Ensure all text elements use Eurostile Bold */
+h1, h2, h3, h4, h5, h6, p, span, a, button, input, textarea, label, li {
+  font-family: 'Eurostile', 'Eurostile Bold', 'Arial Black', 'Helvetica Neue', sans-serif;
+}
+
+/* Brand color utilities */
+.bg-brand-blue {
+  background-color: #005698;
+}
+
+.bg-brand-green {
+  background-color: #009933;
+}
+
+.text-brand-blue {
+  color: #005698;
+}
+
+.text-brand-green {
+  color: #009933;
+}
+
+.border-brand-blue {
+  border-color: #005698;
+}
+
+.border-brand-green {
+  border-color: #009933;
+}
+
+.hover\:bg-brand-blue:hover {
+  background-color: #005698;
+}
+
+.hover\:bg-brand-green:hover {
+  background-color: #009933;
+}
+
+.hover\:text-brand-blue:hover {
+  color: #005698;
+}
+
+.hover\:text-brand-green:hover {
+  color: #009933;
+}
+
+/* Hide scrollbar for horizontal scroll sections */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
