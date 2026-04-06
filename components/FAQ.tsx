@@ -10,125 +10,104 @@ const FAQ: React.FC = () => {
       category: 'General Questions',
       questions: [
         {
-          question: 'How quickly will you respond to my inquiry?',
-          answer: 'We typically respond to all inquiries within 24 hours. For urgent matters or immediate assistance, please call us directly at 1-800-FLOORING. Our team is available Monday through Saturday to help with your flooring needs.'
+          question: 'What types of industrial flooring does TerraGuard install?',
+          answer: 'TerraGuard specializes in high-performance industrial flooring systems including epoxy flooring, urethane cement, ESD/conductive flooring, traffic coatings, and polished concrete. Each system is engineered for specific industrial environments and performance requirements.'
         },
         {
-          question: 'Do you offer free estimates?',
-          answer: 'Yes! We offer free, no-obligation estimates for all flooring projects. Our experts will visit your commercial space, measure your area, and provide a detailed quote. Schedule a consultation today to get started.'
+          question: 'What industries do you serve?',
+          answer: 'We serve a wide range of industries including food & beverage processing, automotive manufacturing, aerospace facilities, pharmaceutical plants, warehouses, distribution centers, and sports & entertainment venues. Our flooring solutions are designed to meet the specific regulatory and performance requirements of each industry.'
         },
         {
-          question: 'What areas do you serve?',
-          answer: 'We serve Phoenix, AZ and surrounding areas throughout the Southwestern United States including Dallas, El Paso, Denver, Las Vegas, and beyond. Contact us to confirm if we service your specific area. We are now open regular hours to help you with all your flooring needs!'
+          question: 'What areas does TerraGuard service?',
+          answer: 'TerraGuard is based in Phoenix, Arizona and serves commercial and industrial clients throughout Arizona and the greater Southwest region. Contact us to discuss your project location and we\'ll confirm our availability.'
         },
         {
-          question: 'Can I visit your showroom?',
-          answer: 'Absolutely! Our showroom is open during regular business hours. No appointment is needed for browsing, but we recommend calling ahead for large groups or if you\'d like a guided tour. Our showroom features thousands of flooring samples you can see and feel in person.'
+          question: 'How do I get a quote for my project?',
+          answer: 'Submit an inquiry through our website or email us. We\'ll schedule a site visit to assess your facility, discuss your requirements, and provide a detailed, no-obligation quote for your project.'
         }
       ]
     },
     {
-      category: 'Products & Selection',
+      category: 'Flooring Systems',
       questions: [
         {
-          question: 'What types of flooring do you carry?',
-          answer: 'We carry a complete selection of flooring including hardwood, carpet, luxury vinyl, tile, and laminate. Each category offers numerous styles, colors, and price points to fit any budget and design preference.'
+          question: 'What is epoxy flooring and where is it used?',
+          answer: 'Epoxy flooring is a seamless, chemical-resistant coating system ideal for industrial environments. It\'s commonly used in manufacturing facilities, warehouses, automotive shops, and any space requiring durability, easy cleaning, and resistance to chemicals, impacts, and heavy traffic.'
         },
         {
-          question: 'Do you have samples available?',
-          answer: 'Yes! We encourage you to take samples to see how they look in your commercial space with your lighting and décor. Samples are available for all our flooring products at no charge.'
+          question: 'What is urethane cement flooring?',
+          answer: 'Urethane cement is a heavy-duty flooring system designed for extreme environments. It offers exceptional thermal shock resistance (withstanding temperatures from -40°F to 250°F), making it ideal for food & beverage processing, commercial kitchens, breweries, and pharmaceutical facilities where hot water washdowns and steam cleaning are common.'
         },
         {
-          question: 'Can I see flooring options in my actual room?',
-          answer: 'Yes! We offer a Room Visualizer tool that allows you to upload a photo of your room and see how different flooring options would look. Visit our showroom or use the visualizer on our website to try it out.'
+          question: 'What is ESD/conductive flooring?',
+          answer: 'ESD (Electrostatic Discharge) flooring is designed to safely dissipate static electricity, protecting sensitive electronic components and personnel. It\'s essential for electronics manufacturing, data centers, server rooms, aerospace facilities, and any environment where static discharge could damage equipment or create safety hazards.'
         },
         {
-          question: 'Do you offer eco-friendly flooring options?',
-          answer: 'Absolutely! We carry a wide selection of eco-friendly flooring including bamboo, cork, and sustainable hardwood options. Many of our products are also low-VOC and contribute to better indoor air quality.'
+          question: 'What are traffic coatings used for?',
+          answer: 'Traffic coatings are durable, waterproof systems designed for parking structures, ramps, walkways, and other vehicular or pedestrian traffic areas. They protect concrete from water infiltration, chemical exposure, and abrasion while providing slip-resistant surfaces for safety.'
         }
       ]
     },
     {
-      category: 'Installation & Service',
+      category: 'Installation Process',
       questions: [
         {
-          question: 'Do you provide installation services?',
-          answer: 'Yes! We have certified, professional installers who are trained and experienced in all types of flooring installation. Our installation team ensures proper preparation, precise installation, and quality finishing for lasting results.'
+          question: 'How long does industrial flooring installation take?',
+          answer: 'Installation timelines vary based on the flooring system, square footage, and surface preparation required. Most projects range from 3-10 days. We work efficiently to minimize downtime and can often schedule work during off-hours or weekends to reduce disruption to your operations.'
         },
         {
-          question: 'How long does installation take?',
-          answer: 'Installation time varies depending on the type of flooring and size of the project. Most commercial installations take 1-5 days depending on project scope. We\'ll provide a timeline during your consultation and work efficiently to minimize disruption to your business operations.'
+          question: 'What surface preparation is required?',
+          answer: 'Proper surface preparation is critical for industrial flooring performance. This typically includes concrete grinding, shot blasting, or diamond grinding to create the proper profile for coating adhesion. We also address cracks, spalls, and moisture issues before installation.'
         },
         {
-          question: 'Do I need to move my furniture?',
-          answer: 'Our installation team can move furniture for an additional fee, or you can move it yourself. We\'ll discuss this during your consultation and provide recommendations based on your specific situation.'
+          question: 'Can you install flooring while our facility is operational?',
+          answer: 'Yes, we frequently work in occupied facilities. We can phase the installation to keep portions of your facility operational, work during off-hours, or coordinate with your production schedule. We\'ll develop a plan that minimizes impact on your operations.'
         },
         {
-          question: 'What is your installation warranty?',
-          answer: 'We stand behind our installation work with a comprehensive warranty. Specific warranty terms vary by product type and will be detailed in your installation agreement. Our certified installers ensure quality workmanship.'
+          question: 'Do you handle concrete repair before installation?',
+          answer: 'Absolutely. Our team addresses all concrete issues including crack repair, spall repair, joint filling, and leveling as part of the surface preparation process. Proper concrete repair is essential for a long-lasting flooring system.'
         }
       ]
     },
     {
-      category: 'Pricing & Financing',
+      category: 'Performance & Compliance',
       questions: [
         {
-          question: 'What financing options do you offer?',
-          answer: 'We offer flexible financing options including up to 18 months of interest-free financing on qualifying purchases. No down payment required on most plans. Apply online or in-store for instant approval.'
+          question: 'Are your flooring systems USDA/FDA compliant?',
+          answer: 'Yes, we install flooring systems that meet USDA and FDA requirements for food processing and pharmaceutical facilities. Our urethane cement and epoxy systems are designed for environments requiring strict sanitation standards and regulatory compliance.'
         },
         {
-          question: 'Do you price match?',
-          answer: 'We work hard to offer competitive pricing on all our products. If you find a lower price on an identical item from a local competitor, bring it to our attention and we\'ll do our best to match it.'
+          question: 'How do your floors handle chemical exposure?',
+          answer: 'Our industrial flooring systems are engineered for chemical resistance. We\'ll recommend the appropriate system based on the specific chemicals in your environment, whether acids, alkalis, solvents, or other industrial chemicals. We can provide chemical resistance charts for each system.'
         },
         {
-          question: 'Are there any hidden fees?',
-          answer: 'No, we believe in transparent pricing. All costs including materials, installation, and any additional services will be clearly outlined in your estimate. There are no surprise charges or hidden fees.'
+          question: 'What slip resistance options are available?',
+          answer: 'We offer various slip-resistant textures and aggregate additives to meet OSHA requirements and your specific safety needs. Options range from light texture for easy cleaning to heavy-duty anti-slip surfaces for wet or oily environments.'
         },
         {
-          question: 'Do you offer discounts or promotions?',
-          answer: 'Yes! We regularly offer promotions and special deals on flooring products and installation. Check our website, visit our showroom, or sign up for our newsletter to stay informed about current offers.'
+          question: 'How long will industrial flooring last?',
+          answer: 'With proper installation and maintenance, industrial flooring systems typically last 10-20+ years depending on the system type and operating conditions. Urethane cement systems often last 20+ years even in demanding environments. We\'ll recommend the best system for your expected lifespan requirements.'
         }
       ]
     },
     {
-      category: 'Care & Maintenance',
+      category: 'Warranty & Support',
       questions: [
         {
-          question: 'How do I care for my new floors?',
-          answer: 'Care instructions vary by flooring type. We provide detailed care and maintenance guides with every purchase. Generally, regular sweeping/vacuuming and occasional mopping with appropriate cleaners will keep your floors looking beautiful.'
+          question: 'What warranty do you provide?',
+          answer: 'TerraGuard provides comprehensive warranties on both materials and workmanship. Specific warranty terms vary by flooring system and will be detailed in your project proposal. We stand behind our installations and are committed to your long-term satisfaction.'
         },
         {
           question: 'Do you offer maintenance services?',
-          answer: 'Yes, we offer professional cleaning and maintenance services for all types of flooring. This includes deep cleaning, refinishing for hardwood, and specialized treatments to keep your floors in top condition.'
+          answer: 'Yes, we offer maintenance programs to extend the life of your flooring investment. This includes periodic inspections, recoating services, and repair work as needed. Regular maintenance can significantly extend the lifespan of your industrial flooring.'
         },
         {
-          question: 'What if my floor gets damaged?',
-          answer: 'Contact us immediately if your floor sustains damage. Many issues can be repaired without replacing the entire floor. Our team can assess the damage and recommend the best solution, which may be covered under warranty.'
+          question: 'What if there\'s an issue with my flooring after installation?',
+          answer: 'Contact us immediately if you experience any issues. We respond quickly to address concerns and will assess the situation to determine the appropriate solution. Our goal is to ensure your flooring performs as expected for years to come.'
         },
         {
-          question: 'How long will my floors last?',
-          answer: 'Floor lifespan varies by product type. Hardwood can last generations with proper care, while luxury vinyl and laminate typically last 15-25 years. We\'ll discuss expected lifespan during your consultation based on your chosen product and usage.'
-        }
-      ]
-    },
-    {
-      category: 'Warranty & Guarantees',
-      questions: [
-        {
-          question: 'What is the Adore Your Floor Guarantee?',
-          answer: 'Our Adore Your Floor Guarantee means if you don\'t love your new 5-Star floor, we\'ll replace it for free. This is our commitment to your complete satisfaction with your flooring purchase.'
-        },
-        {
-          question: 'What does the warranty cover?',
-          answer: 'Warranty coverage varies by product and manufacturer. Most warranties cover manufacturing defects and premature wear. Installation warranties cover workmanship issues. We\'ll explain all warranty details before your purchase.'
-        },
-        {
-          question: 'How do I file a warranty claim?',
-          answer: 'Contact us directly if you believe you have a warranty issue. We\'ll guide you through the process, which typically involves photos and a brief description of the issue. Our team will work with the manufacturer to resolve your claim quickly.'
-        },
-        {
-          question: 'Are warranties transferable?',
-          answer: 'Most product warranties are transferable to new property owners, which can add value to your commercial property. Installation warranties typically apply to the original purchaser. Specific terms will be outlined in your warranty documentation.'
+          question: 'Is TerraGuard a licensed contractor?',
+          answer: 'Yes, TerraGuard is a fully licensed and insured Arizona contractor. We carry comprehensive liability insurance and workers\' compensation coverage. We\'re happy to provide certificates of insurance for your records.'
         }
       ]
     }
@@ -250,12 +229,6 @@ const FAQ: React.FC = () => {
             >
               Contact Us
             </Link>
-            <a 
-              href="tel:16024151919"
-              className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2"
-            >
-              Call 602-415-1919
-            </a>
           </div>
         </div>
 

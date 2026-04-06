@@ -57,7 +57,7 @@ const SportsEntertainment: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-yellow-500 font-semibold tracking-wider uppercase">Industries</span>
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Industries</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Sports & Entertainment Flooring</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Durable, attractive flooring solutions for stadiums, arenas, fitness centers, and entertainment venues. TerraGuard delivers floors that perform under heavy traffic while maintaining a professional appearance.
@@ -65,7 +65,7 @@ const SportsEntertainment: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contact"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
                 >
                   Get a Quote
                 </Link>
@@ -83,7 +83,7 @@ const SportsEntertainment: React.FC = () => {
                 <ul className="space-y-3">
                   {clients.map((client, idx) => (
                     <li key={idx} className="flex items-center text-lg">
-                      <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                       {client}
                     </li>
                   ))}
@@ -195,23 +195,23 @@ const SportsEntertainment: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Key Requirements</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>High traffic durability for large crowds</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Slip-resistant surfaces for safety</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Attractive finishes for public areas</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Easy cleanup between events</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Custom branding and logo options</span>
                 </li>
               </ul>
@@ -229,7 +229,7 @@ const SportsEntertainment: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
+            className="inline-block bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
           >
             Request a Quote
           </Link>

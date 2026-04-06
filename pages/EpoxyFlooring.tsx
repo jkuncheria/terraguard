@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Shield, Sparkles, ArrowRight, Zap, Phone, Droplet } from 'lucide-react';
 import SEO from '../components/SEO';
+import ServiceSchema from '../components/ServiceSchema';
 import { SEO_CONFIG } from '../seoConfig';
 
 const EpoxyFlooring: React.FC = () => {
@@ -67,44 +68,55 @@ const EpoxyFlooring: React.FC = () => {
         description={seo.description}
         canonical={`${SEO_CONFIG.baseUrl}${seo.path}`}
       />
-      <section className="py-24 bg-white px-4 md:px-16">
-      <div className="max-w-7xl mx-auto">
-        
-        {/* Hero Section */}
-        <div className="mb-20">
+      <ServiceSchema
+        serviceName="Epoxy Flooring Installation"
+        serviceType="Epoxy Flooring"
+        description="Professional epoxy flooring installation for commercial and industrial facilities in Arizona. Durable, chemical-resistant coatings for warehouses, manufacturing, and food processing."
+        url="/epoxy-flooring"
+        image="/images/flooring/epoxy-flooring.png"
+      />
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-blue-900 to-gray-900 text-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-blue-900 font-bold tracking-wider text-sm uppercase">EPOXY FLOORING</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
-                Epoxy Flooring for Commercial & Industrial Spaces
-              </h1>
-              <div className="w-20 h-1 bg-yellow-500 mb-6"></div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Flooring Systems</span>
+              <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Epoxy Flooring</h1>
+              <p className="text-xl text-gray-300 mb-8">
                 Durable, chemical-resistant epoxy flooring solutions for commercial and industrial environments. 
                 Perfect for facilities that require extreme durability, easy maintenance, and seamless surfaces.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contact" className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group">
+                <Link
+                  to="/contact"
+                  className="bg-green-600 hover:bg-green-500 text-white font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                >
                   Get a Quote
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:16024151919" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  Call Us
-                </a>
+                <Link
+                  to="/flooring-systems"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 font-bold py-3 px-8 rounded transition text-center"
+                >
+                  All Flooring Systems
+                </Link>
               </div>
             </div>
-            <div className="relative">
-              <div className="overflow-hidden h-[500px] md:h-[600px] rounded-2xl shadow-2xl">
+            <div className="hidden lg:block">
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/flooring-systems/epoxy-flooring.png" 
-                  alt="Epoxy Flooring" 
-                  className="w-full h-full object-cover"
+                  alt="Commercial epoxy flooring installation in Arizona warehouse by TerraGuard" 
+                  loading="lazy"
+                  className="w-full h-[400px] object-cover"
                 />
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="py-16 px-4 md:px-16 bg-white">
+      <div className="max-w-7xl mx-auto">
 
         {/* Benefits Section */}
         <div className="mb-20">
@@ -112,7 +124,7 @@ const EpoxyFlooring: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Why Choose Epoxy Flooring?
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Epoxy flooring offers unmatched durability and performance for demanding commercial and industrial environments.
             </p>
@@ -134,7 +146,7 @@ const EpoxyFlooring: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Ideal Commercial & Industrial Applications
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Epoxy flooring is perfect for facilities that require extreme durability and easy maintenance.
             </p>
@@ -155,7 +167,7 @@ const EpoxyFlooring: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Types of Epoxy Flooring
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               We offer various epoxy systems to meet your specific commercial or industrial needs.
             </p>
@@ -181,17 +193,17 @@ const EpoxyFlooring: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               to="/contact" 
-              className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group"
+              className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group"
             >
               Get Your Free Quote
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a 
-              href="tel:16024151919" 
+              href="tel:16027369955" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Call 602-415-1919
+              Call 602-736-9955
             </a>
           </div>
         </div>

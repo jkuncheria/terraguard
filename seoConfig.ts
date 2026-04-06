@@ -2,7 +2,7 @@
 export const SEO_CONFIG = {
   baseUrl: 'https://www.terraguardusa.com',
   siteName: 'TerraGuard',
-  defaultImage: '/terraguard-logo.png',
+  defaultImage: '/TerraGuard-Images/terraguard-transparent.png',
   
   pages: {
     home: {

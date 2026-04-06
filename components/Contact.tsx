@@ -11,7 +11,8 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
     email: '',
     phone: '',
     inquiryType: 'general',
-    message: ''
+    message: '',
+    smsOptIn: false
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitStatus, setSubmitStatus] = useState<{ type: 'success' | 'error' | null; message: string }>({
@@ -68,7 +69,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
     try {
       const payload = {
         ...formData,
-        clientId: 'RL-PKAG7329'
+        clientId: 'RL-HDM57ATL'
         // Add additional fields here if the form expands (budget, projectType, images, etc.)
       };
 
@@ -90,7 +91,8 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
         email: '',
         phone: '',
         inquiryType: 'general',
-        message: ''
+        message: '',
+        smsOptIn: false
       });
     } catch (error) {
       console.error(error);
@@ -103,7 +105,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
   return (
     <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-gray-50 px-4 md:px-16 relative overflow-hidden">
       {/* Decorative Background Elements */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-yellow-400 rounded-full opacity-5 blur-3xl"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-green-400 rounded-full opacity-5 blur-3xl"></div>
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-blue-400 rounded-full opacity-5 blur-3xl"></div>
       
       <div className="max-w-7xl mx-auto relative z-10">
@@ -114,7 +116,7 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-5">
             Get Your Project Started Today
           </h2>
-          <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto leading-relaxed">
             We stay in constant communication with our customers until the job is done. To get a free quote, or if you have questions or special requests, just drop us a line.
           </p>
@@ -131,16 +133,6 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
               </p>
 
               <div className="space-y-6">
-                <a href="tel:16024151919" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
-                  <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
-                    <Phone className="w-6 h-6 text-white" />
-                  </div>
-                  <div className="flex-1">
-                    <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-900 transition-colors">Phone</h4>
-                    <p className="text-gray-700 font-semibold text-lg">602-415-1919</p>
-                  </div>
-                </a>
-
                 <a href="mailto:caleb@terraguardusa.com" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
                   <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
@@ -152,14 +144,14 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                   </div>
                 </a>
 
-                <a href="https://maps.google.com/?q=1430+N+29th+Ave,+Phoenix,+AZ+85009" target="_blank" rel="noopener noreferrer" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
+                <a href="https://maps.google.com/?q=3414+S+48th+Street+Suite+1+Phoenix+AZ+85040" target="_blank" rel="noopener noreferrer" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
                   <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md">
                     <MapPin className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1">
                     <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-900 transition-colors">Address</h4>
-                    <p className="text-gray-700 font-semibold">1430 N 29th Ave</p>
-                    <p className="text-gray-700 font-semibold">Phoenix, AZ 85009</p>
+                    <p className="text-gray-700 font-semibold">3414 S. 48th Street, Suite #1</p>
+                    <p className="text-gray-700 font-semibold">Phoenix, AZ 85040</p>
                     <p className="text-sm text-blue-900 mt-1 font-semibold group-hover:underline">
                       Get Directions →
                     </p>
@@ -284,6 +276,25 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
                 ></textarea>
               </div>
 
+              {/* SMS Opt-In Checkbox */}
+              <div className="mb-6">
+                <label className="flex items-start gap-3 cursor-pointer group">
+                  <input
+                    type="checkbox"
+                    name="smsOptIn"
+                    checked={formData.smsOptIn}
+                    onChange={(e) => setFormData({ ...formData, smsOptIn: e.target.checked })}
+                    className="mt-1 w-5 h-5 rounded border-2 border-gray-300 text-blue-900 focus:ring-blue-900 focus:ring-offset-0 cursor-pointer"
+                  />
+                  <span className="text-sm text-gray-600 leading-relaxed">
+                    I agree to receive SMS/text messages from TerraGuard for appointment confirmations, reminders, and service updates. Message frequency varies. Message and data rates may apply. Reply STOP to unsubscribe. View our{' '}
+                    <a href="/privacy-policy" className="text-blue-900 hover:underline font-medium">Privacy Policy</a>
+                    {' '}and{' '}
+                    <a href="/terms-of-service" className="text-blue-900 hover:underline font-medium">Terms of Service</a>.
+                  </span>
+                </label>
+              </div>
+
               <button
                 type="submit"
                 disabled={isSubmitting}
@@ -304,100 +315,6 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
 
         </div>
 
-        {/* Store Hours & Location Section - Only show on full Contact page */}
-        {!simplified && (
-          <>
-            <div className="mt-20 grid grid-cols-1 lg:grid-cols-2 gap-10">
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
-            <div className="flex items-center mb-6">
-              <div className="bg-blue-50 p-3 rounded-xl mr-4">
-                <Clock className="w-6 h-6 text-blue-900" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Store Hours</h3>
-            </div>
-            <div className="space-y-4">
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Mon</span>
-                <span className="text-gray-600">09:00 am – 05:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Tue</span>
-                <span className="text-gray-600">09:00 am – 05:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Wed</span>
-                <span className="text-gray-600">09:00 am – 05:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Thu</span>
-                <span className="text-gray-600">09:00 am – 05:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Fri</span>
-                <span className="text-gray-600">09:00 am – 05:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3 border-b border-gray-100">
-                <span className="font-semibold text-gray-900">Sat</span>
-                <span className="text-gray-600">08:00 am – 12:00 pm</span>
-              </div>
-              <div className="flex justify-between items-center py-3">
-                <span className="font-semibold text-gray-900">Sun</span>
-                <span className="text-gray-600">Closed</span>
-              </div>
-            </div>
-          </div>
-
-          <div className="bg-white rounded-2xl shadow-lg p-8 md:p-10 border border-gray-100">
-            <div className="flex items-center mb-6">
-              <div className="bg-blue-50 p-3 rounded-xl mr-4">
-                <MapPin className="w-6 h-6 text-blue-900" />
-              </div>
-              <h3 className="text-2xl font-bold text-gray-900">Visit Our Showroom</h3>
-            </div>
-            <div className="space-y-4">
-              <div>
-                <p className="text-gray-900 font-semibold">1430 N 29th Ave</p>
-                <p className="text-gray-900 font-semibold">Phoenix, AZ 85009</p>
-              </div>
-              <div className="pt-4 border-t border-gray-100">
-                <p className="text-gray-600 mb-4">
-                  Visit our showroom to see our full selection of flooring samples and get expert advice from our team.
-                </p>
-                <a 
-                  href="https://maps.google.com/?q=1430+N+29th+Ave,+Phoenix,+AZ+85009"
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="inline-block bg-blue-900 hover:bg-blue-800 text-white font-bold py-3 px-6 rounded-xl transition-all"
-                >
-                  Get Directions
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-            {/* Social Media */}
-            <div className="mt-20 flex justify-center">
-              <div className="bg-gradient-to-br from-blue-900 to-blue-800 rounded-2xl p-8 text-white text-center max-w-md">
-                <div className="bg-white bg-opacity-20 p-4 rounded-full inline-flex mb-4">
-                  <Users className="w-8 h-8" />
-                </div>
-                <h3 className="text-xl font-bold mb-3">Join Our Community</h3>
-                <p className="text-blue-100 mb-4 text-sm">
-                  Follow us on social media for design inspiration, special offers, and flooring tips.
-                </p>
-                <div className="flex justify-center gap-3">
-                  <a href="https://www.facebook.com/ABSFloors/" target="_blank" rel="noopener noreferrer" className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-lg transition-all">
-                    <Facebook className="w-5 h-5" />
-                  </a>
-                  <a href="https://www.linkedin.com/company/abs-floor-covering/" target="_blank" rel="noopener noreferrer" className="bg-white bg-opacity-20 hover:bg-opacity-30 p-2 rounded-lg transition-all">
-                    <Linkedin className="w-5 h-5" />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </>
-        )}
 
       </div>
     </section>

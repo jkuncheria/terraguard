@@ -55,7 +55,7 @@ const Aerospace: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-yellow-500 font-semibold tracking-wider uppercase">Industries</span>
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Industries</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Aerospace Flooring</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Specialized flooring solutions for aerospace manufacturing, MRO facilities, and aviation support operations. TerraGuard delivers floors that meet the stringent requirements of the aerospace industry.
@@ -63,7 +63,7 @@ const Aerospace: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contact"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
                 >
                   Get a Quote
                 </Link>
@@ -81,7 +81,7 @@ const Aerospace: React.FC = () => {
                 <ul className="space-y-2">
                   {applications.slice(0, 5).map((app, idx) => (
                     <li key={idx} className="flex items-center">
-                      <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                       {app}
                     </li>
                   ))}
@@ -193,23 +193,23 @@ const Aerospace: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Key Requirements</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>ESD protection for sensitive electronics</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Resistance to aviation fuels and hydraulic fluids</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Heavy load capacity for aircraft and equipment</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Clean room compatibility where required</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Safety markings and line striping</span>
                 </li>
               </ul>
@@ -227,7 +227,7 @@ const Aerospace: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
+            className="inline-block bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
           >
             Request a Quote
           </Link>

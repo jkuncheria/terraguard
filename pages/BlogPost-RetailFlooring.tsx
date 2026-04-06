@@ -88,7 +88,7 @@ const faqSchema = {
       "name": "How much does commercial retail flooring cost in Phoenix?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Commercial retail flooring in Phoenix typically ranges from $3-$12 per square foot for materials, plus $2-$6 for installation. LVT costs $4-$8/sq ft installed, commercial carpet $3-$7/sq ft, hardwood $8-$15/sq ft, and polished concrete $3-$8/sq ft. Contact TerraGuard at 602-415-1919 for a free quote tailored to your project."
+        "text": "Commercial retail flooring in Phoenix typically ranges from $3-$12 per square foot for materials, plus $2-$6 for installation. LVT costs $4-$8/sq ft installed, commercial carpet $3-$7/sq ft, hardwood $8-$15/sq ft, and polished concrete $3-$8/sq ft. Contact TerraGuard at 602-736-9955 for a free quote tailored to your project."
       }
     },
     {
@@ -706,7 +706,7 @@ const BlogPostRetailFlooring: React.FC = () => {
                     How much does commercial retail flooring cost in Phoenix?
                   </h3>
                   <p className="text-gray-700">
-                    Commercial retail flooring in Phoenix typically ranges from <strong>$3-$12 per square foot</strong> for materials, plus $2-$6 for installation. LVT costs $4-$8/sq ft installed, commercial carpet $3-$7/sq ft, hardwood $8-$15/sq ft, and polished concrete $3-$8/sq ft. <Link to="/contact" className="text-blue-600 hover:text-blue-800 underline">Contact TerraGuard</Link> at 602-415-1919 for a free quote tailored to your project.
+                    Commercial retail flooring in Phoenix typically ranges from <strong>$3-$12 per square foot</strong> for materials, plus $2-$6 for installation. LVT costs $4-$8/sq ft installed, commercial carpet $3-$7/sq ft, hardwood $8-$15/sq ft, and polished concrete $3-$8/sq ft. <Link to="/contact" className="text-blue-600 hover:text-blue-800 underline">Contact TerraGuard</Link> at 602-736-9955 for a free quote tailored to your project.
                   </p>
                 </div>
 
@@ -771,11 +771,11 @@ const BlogPostRetailFlooring: React.FC = () => {
                   Get a Free Consultation
                 </Link>
                 <a 
-                  href="tel:602-415-1919"
+                  href="tel:602-736-9955"
                   className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-blue-900 font-bold py-3 px-8 rounded-lg shadow-lg transition transform hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 602-415-1919
+                  Call 602-736-9955
                 </a>
               </div>
             </div>

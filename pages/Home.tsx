@@ -6,9 +6,8 @@ import Hero from '../components/Hero';
 import LogoBanner from '../components/LogoBanner';
 import AboutHome from '../components/AboutHome';
 import Categories from '../components/Categories';
-import Testimonials from '../components/Testimonials';
 import Contact from '../components/Contact';
-import { Phone, ArrowRight } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const Home: React.FC = () => {
   const seo = SEO_CONFIG.pages.home;
@@ -24,7 +23,6 @@ const Home: React.FC = () => {
       <LogoBanner />
       <AboutHome />
       <Categories />
-      <Testimonials />
       <Contact simplified={true} />
       
       {/* CTA Section */}
@@ -44,13 +42,6 @@ const Home: React.FC = () => {
               Request a Quote
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
-            <a 
-              href="tel:16027369955"
-              className="inline-flex items-center justify-center bg-white/10 border border-white/20 hover:bg-white/20 text-white font-semibold py-4 px-8 rounded-lg transition-all"
-            >
-              <Phone className="w-5 h-5 mr-2" />
-              602-736-9955
-            </a>
           </div>
         </div>
       </section>

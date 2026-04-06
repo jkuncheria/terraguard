@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Linkedin, Phone, Mail } from 'lucide-react';
+import { Phone, Mail } from 'lucide-react';
 
 const Footer: React.FC = () => {
   const scrollToTop = () => {
@@ -27,14 +27,10 @@ const Footer: React.FC = () => {
             </Link>
             <p className="text-sm text-gray-600 mb-4">
               Licensed Arizona Contractor<br />
-              8110 N 13th Wy, Phoenix, AZ
+              3414 S. 48th Street, Suite #1, Phoenix, AZ 85040
             </p>
             <div className="text-sm text-gray-600 mb-4 space-y-1">
-              <p className="flex items-center"><Phone className="w-4 h-4 mr-2" /><a href="tel:16027369955" className="hover:text-blue-900">602-736-9955</a></p>
-              <p className="flex items-center"><Mail className="w-4 h-4 mr-2" /><a href="mailto:info@terraguardusa.com" className="hover:text-blue-900">info@terraguardusa.com</a></p>
-            </div>
-            <div className="flex space-x-4">
-              <a href="https://www.linkedin.com/company/terraguard/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-blue-900/80 transition-colors"><Linkedin className="w-5 h-5"/></a>
+              <p className="flex items-center"><Mail className="w-4 h-4 mr-2" /><a href="mailto:caleb@terraguardusa.com" className="hover:text-blue-900">caleb@terraguardusa.com</a></p>
             </div>
           </div>
 
@@ -134,55 +130,10 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Business Hours */}
-          <div>
-            <h4 className="font-bold text-gray-900 mb-4 uppercase text-sm tracking-wider">Business Hours</h4>
-            <div className="text-sm text-gray-600 space-y-1">
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Monday</span>
-                <span>7 AM–5 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Tuesday</span>
-                <span>7 AM–5 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Wednesday</span>
-                <span>7 AM–5 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Thursday</span>
-                <span>7 AM–5 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Friday</span>
-                <span>7 AM–5 PM</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Saturday</span>
-                <span>Closed</span>
-              </div>
-              <div className="flex justify-between">
-                <span className="font-semibold text-gray-900">Sunday</span>
-                <span>Closed</span>
-              </div>
-            </div>
-            
-            {/* Clients */}
-            <div className="mt-6">
-              <h4 className="font-bold text-gray-900 mb-2 uppercase text-sm tracking-wider">Trusted By</h4>
-              <p className="text-xs text-gray-500">Goodyear • ASU • Pepsi • JBS Harvest • U of A • Royal Oaks</p>
-            </div>
-          </div>
-
         </div>
 
-        <div className="border-t border-gray-300 pt-8 flex flex-col md:flex-row justify-between items-center text-xs text-gray-500">
-          <p>&copy; 2025 TerraGuard. All Rights Reserved. Licensed Arizona Contractor.</p>
-          <div className="flex space-x-4 mt-4 md:mt-0">
-            <a href="#" className="hover:underline">Privacy Policy</a>
-            <a href="#" className="hover:underline">Terms of Use</a>
-          </div>
+        <div className="border-t border-gray-300 pt-8 text-center text-xs text-gray-500">
+          <p>&copy; 2026 TerraGuard. All Rights Reserved. Licensed Arizona Contractor.</p>
         </div>
 
       </div>

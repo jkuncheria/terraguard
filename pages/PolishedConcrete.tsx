@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { CheckCircle, Shield, Sparkles, ArrowRight, Zap, Phone, Building2 } from 'lucide-react';
 import SEO from '../components/SEO';
+import ServiceSchema from '../components/ServiceSchema';
 import { SEO_CONFIG } from '../seoConfig';
 
 const PolishedConcrete: React.FC = () => {
@@ -71,44 +72,55 @@ const PolishedConcrete: React.FC = () => {
         description={seo.description}
         canonical={`${SEO_CONFIG.baseUrl}${seo.path}`}
       />
-      <section className="py-24 bg-white px-4 md:px-16">
-      <div className="max-w-7xl mx-auto">
-        
-        {/* Hero Section */}
-        <div className="mb-20">
+      <ServiceSchema
+        serviceName="Polished Concrete Flooring"
+        serviceType="Polished Concrete"
+        description="Professional polished and sealed concrete flooring in Arizona. Concrete grinding, honing & polishing for commercial, retail & industrial spaces."
+        url="/polished-concrete"
+        image="/images/flooring/polished-concrete.png"
+      />
+      {/* Hero Section */}
+      <section className="relative bg-gradient-to-br from-blue-900 to-gray-900 text-white py-20 px-4">
+        <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-blue-900 font-bold tracking-wider text-sm uppercase">POLISHED CONCRETE</span>
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mt-4 mb-6">
-                Polished Concrete Flooring for Commercial Spaces
-              </h1>
-              <div className="w-20 h-1 bg-yellow-500 mb-6"></div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Flooring Systems</span>
+              <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Polished Concrete</h1>
+              <p className="text-xl text-gray-300 mb-8">
                 Transform your existing concrete floors into stunning, durable surfaces with our professional polished concrete services. 
                 Perfect for commercial spaces seeking a modern, low-maintenance flooring solution that combines beauty with exceptional durability.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link to="/contact" className="bg-blue-900 hover:bg-blue-800 text-white font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group">
+                <Link
+                  to="/contact"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                >
                   Get a Quote
-                  <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:16024151919" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
-                  <Phone className="w-5 h-5" />
-                  Call Us
-                </a>
+                <Link
+                  to="/flooring-systems"
+                  className="border-2 border-white text-white hover:bg-white hover:text-blue-900 font-bold py-3 px-8 rounded transition text-center"
+                >
+                  All Flooring Systems
+                </Link>
               </div>
             </div>
-            <div className="relative">
-              <div className="overflow-hidden h-[500px] md:h-[600px] rounded-2xl shadow-2xl">
+            <div className="hidden lg:block">
+              <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/flooring-systems/polished-concrete.png" 
-                  alt="Polished Concrete Flooring" 
-                  className="w-full h-full object-cover"
+                  alt="Polished concrete flooring for commercial spaces in Arizona by TerraGuard" 
+                  loading="lazy"
+                  className="w-full h-[400px] object-cover"
                 />
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="py-16 px-4 md:px-16 bg-white">
+      <div className="max-w-7xl mx-auto">
 
         {/* Benefits Section */}
         <div className="mb-20">
@@ -116,7 +128,7 @@ const PolishedConcrete: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Why Choose Polished Concrete?
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Polished concrete offers unmatched durability and a modern aesthetic that's perfect for commercial applications.
             </p>
@@ -138,7 +150,7 @@ const PolishedConcrete: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Perfect for Commercial Applications
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Polished concrete is ideal for a wide range of commercial environments where durability and aesthetics matter.
             </p>
@@ -159,7 +171,7 @@ const PolishedConcrete: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Our Polishing Process
             </h2>
-            <div className="w-20 h-1 bg-yellow-500 mx-auto mb-6"></div>
+            <div className="w-20 h-1 bg-green-500 mx-auto mb-6"></div>
             <p className="text-lg text-gray-600 max-w-3xl mx-auto">
               Our experienced team follows a proven process to deliver exceptional polished concrete results.
             </p>
@@ -188,17 +200,17 @@ const PolishedConcrete: React.FC = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link 
               to="/contact" 
-              className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group"
+              className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all transform hover:scale-105 shadow-lg flex items-center justify-center gap-2 group"
             >
               Get Your Free Quote
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a 
-              href="tel:16024151919" 
+              href="tel:16027369955" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Call 602-415-1919
+              Call 602-736-9955
             </a>
           </div>
         </div>

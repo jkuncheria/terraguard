@@ -118,7 +118,8 @@ const Categories: React.FC = () => {
                     <div className="relative h-[280px] overflow-hidden">
                       <img 
                         src={system.image} 
-                        alt={system.name}
+                        alt={`${system.name} flooring installation by TerraGuard Arizona`}
+                        loading="lazy"
                         className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                       />
                       {/* Icon badge */}

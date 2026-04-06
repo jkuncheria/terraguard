@@ -46,35 +46,40 @@ const Header: React.FC = () => {
           onClick={scrollToTop}
           className="text-center text-blue-900 font-semibold hover:text-blue-900/80 transition-colors cursor-pointer"
         >
-          <span>🏆 LICENSED ARIZONA CONTRACTOR | INDUSTRIAL FLOORING EXPERTS | GET YOUR FREE QUOTE</span>
+          <span>🏆 INDUSTRIAL FLOORING EXPERTS | GET YOUR FREE QUOTE</span>
         </Link>
       </div>
 
       {/* Main Header Content */}
       <div className="bg-white py-5 md:py-6 px-4 md:px-8 lg:px-16 shadow-sm">
-        <div className="flex flex-col md:grid md:grid-cols-3 items-center gap-4 relative min-h-[90px] md:min-h-0">
+        <div className="flex justify-between items-center md:grid md:grid-cols-3 relative min-h-[60px] md:min-h-0">
           
-          {/* Mobile Contact Buttons (Left side on mobile) */}
-          <div className="w-full md:w-auto flex justify-start items-center md:hidden md:col-span-1 absolute left-4 top-1/2 transform -translate-y-1/2 md:relative md:left-0 md:top-0 md:transform-none">
-            <div className="flex items-center gap-2">
-              <Link 
-                to="/contact"
-                onClick={scrollToTop}
-                className="p-2 border-2 border-blue-900 text-blue-900 rounded-lg"
-              >
-                <Mail className="w-5 h-5" />
-              </Link>
-              <a 
-                href="tel:16027369955"
-                className="p-2 bg-blue-900 text-white rounded-lg"
-              >
-                <Phone className="w-5 h-5" />
-              </a>
-            </div>
+          {/* Mobile Contact Button (Left side on mobile) */}
+          <div className="flex items-center md:hidden">
+            <Link 
+              to="/contact"
+              onClick={scrollToTop}
+              className="p-2 border-2 border-blue-900 text-blue-900 rounded-lg"
+            >
+              <Mail className="w-5 h-5" />
+            </Link>
+          </div>
+
+          {/* Logo - Centered */}
+          <div className="flex justify-center md:col-start-2 md:col-end-3">
+            <Link to="/" onClick={scrollToTop} className="flex items-center justify-center group">
+              <img 
+                src="/TerraGuard-Images/terraguard-transparent.png" 
+                alt="TerraGuard - Industrial Flooring Contractor Arizona" 
+                width="200"
+                height="80"
+                className="h-8 md:h-16 lg:h-20 w-auto object-contain"
+              />
+            </Link>
           </div>
 
           {/* Mobile Menu Toggle (Right side on mobile) */}
-          <div className="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2">
+          <div className="md:hidden flex items-center">
             <button 
               className="p-2 text-gray-600"
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -83,36 +88,16 @@ const Header: React.FC = () => {
             </button>
           </div>
 
-          {/* Logo - Centered */}
-          <div className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2 md:relative md:left-0 md:top-0 md:transform-none md:col-start-2 md:col-end-3 md:flex md:justify-center">
-            <Link to="/" onClick={scrollToTop} className="flex items-center justify-center group">
-              <img 
-                src="/TerraGuard-Images/terraguard-transparent.png" 
-                alt="TerraGuard - Industrial Flooring Contractor Arizona" 
-                width="200"
-                height="80"
-                className="h-12 md:h-16 lg:h-20 w-auto object-contain"
-              />
-            </Link>
-          </div>
-
-          {/* Call & Contact Buttons (Desktop) */}
+          {/* Contact Button (Desktop) */}
           <div className="hidden md:flex items-center space-x-3 md:col-start-3 md:col-end-4 md:justify-end">
             <Link 
               to="/contact"
               onClick={scrollToTop}
-              className="flex items-center border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all"
-            >
-              <Mail className="w-4 h-4 mr-2" />
-              Contact
-            </Link>
-            <a 
-              href="tel:16027369955"
               className="flex items-center bg-blue-900 hover:bg-blue-900/90 text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all transform hover:scale-105 shadow-md"
             >
-              <Phone className="w-4 h-4 mr-2" />
-              Call Us
-            </a>
+              <Mail className="w-4 h-4 mr-2" />
+              Contact Us
+            </Link>
           </div>
 
           {/* Search & Store Locator (Desktop) - COMMENTED OUT */}
@@ -161,7 +146,7 @@ const Header: React.FC = () => {
                       <ChevronDown className={`w-4 h-4 ml-1 transition-transform ${openDropdown === item.label ? 'rotate-180' : ''}`} />
                     </button>
                     {openDropdown === item.label && (
-                      <ul className="md:absolute md:top-full md:left-0 md:mt-0 bg-blue-900/90 md:shadow-lg md:min-w-[200px] md:rounded-b-lg overflow-hidden">
+                      <ul className="md:absolute md:top-full md:left-0 md:mt-0 bg-blue-900 md:shadow-lg md:min-w-[200px] md:rounded-b-lg overflow-hidden">
                         {item.subItems.map((subItem) => (
                           <li key={subItem.label} className="border-b border-blue-900/70 last:border-none">
                             <Link

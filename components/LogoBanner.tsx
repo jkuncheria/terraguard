@@ -8,7 +8,7 @@ const LogoBanner: React.FC = () => {
     },
     {
       name: 'GKN Aerospace',
-      image: '/Logos/new-logos/gkn-aerospace.webp',
+      image: '/Logos/new-logos/gkn-aerospace.jpeg',
     },
     {
       name: 'Goodyear',
@@ -29,6 +29,18 @@ const LogoBanner: React.FC = () => {
     {
       name: 'University of Arizona',
       image: '/Logos/new-logos/uofa.webp',
+    },
+    {
+      name: 'Factor',
+      image: '/Logos/new-logos/factor-food.jpeg',
+    },
+    {
+      name: 'HelloFresh',
+      image: '/Logos/new-logos/hello-fresh.png',
+    },
+    {
+      name: 'Purina',
+      image: '/Logos/new-logos/Purina-Logo.png',
     },
   ];
 
@@ -74,7 +86,8 @@ const LogoBanner: React.FC = () => {
               >
                 <img
                   src={logo.image}
-                  alt={logo.name}
+                  alt={`${logo.name} - TerraGuard project partner`}
+                  loading="lazy"
                   className="h-12 md:h-16 w-auto object-contain"
                   style={{ minWidth: '100px', maxWidth: '160px' }}
                 />

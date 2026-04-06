@@ -11,7 +11,7 @@ const SEO: React.FC<SEOProps> = ({
   title, 
   description, 
   canonical,
-  ogImage = '/abslogo.png'
+  ogImage = '/TerraGuard-Images/terraguard-transparent.png'
 }) => {
   useEffect(() => {
     // Update document title
@@ -41,14 +41,14 @@ const SEO: React.FC<SEOProps> = ({
     updateMetaTag('meta[property="og:title"]', 'content', title);
     updateMetaTag('meta[property="og:description"]', 'content', description);
     if (ogImage) {
-      updateMetaTag('meta[property="og:image"]', 'content', `https://www.absflooring.com${ogImage}`);
+      updateMetaTag('meta[property="og:image"]', 'content', `https://www.terraguardusa.com${ogImage}`);
     }
 
     // Update Twitter Card tags
     updateMetaTag('meta[name="twitter:title"]', 'content', title);
     updateMetaTag('meta[name="twitter:description"]', 'content', description);
     if (ogImage) {
-      updateMetaTag('meta[name="twitter:image"]', 'content', `https://www.absflooring.com${ogImage}`);
+      updateMetaTag('meta[name="twitter:image"]', 'content', `https://www.terraguardusa.com${ogImage}`);
     }
 
     // Update canonical URL

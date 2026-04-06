@@ -1,11 +1,11 @@
 # robots.txt for TerraGuard
-# https://www.absflooring.com
+# https://www.terraguardusa.com
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://www.absflooring.com/sitemap.xml
+Sitemap: https://www.terraguardusa.com/sitemap.xml
 
 # Crawl-delay for polite crawling
 Crawl-delay: 1

@@ -22,13 +22,13 @@ const About: React.FC = () => {
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-gray-900 mt-4 mb-6">
             Arizona's Industrial Flooring Experts
           </h1>
-          <div className="w-20 h-1 bg-yellow-500 mx-auto mb-8"></div>
+          <div className="w-20 h-1 bg-green-500 mx-auto mb-8"></div>
           
           {/* Main Content */}
-          <div className="bg-gradient-to-br from-blue-50 to-yellow-50 rounded-2xl p-8 md:p-12 mb-12 max-w-4xl mx-auto border-2 border-blue-200 shadow-lg">
+          <div className="bg-gradient-to-br from-blue-50 to-green-50 rounded-2xl p-8 md:p-12 mb-12 max-w-4xl mx-auto border-2 border-blue-200 shadow-lg">
             <div className="text-left">
               <div className="bg-blue-900 rounded-full p-6 shadow-xl inline-flex mb-6">
-                <Shield className="w-12 h-12 text-yellow-400" />
+                <Shield className="w-12 h-12 text-green-400" />
               </div>
               <p className="text-lg md:text-xl text-gray-700 leading-relaxed mb-8">
                 TerraGuard is a licensed Arizona contractor specializing in commercial and industrial flooring systems. We deliver high-performance solutions for the most demanding environments across food & beverage, automotive, manufacturing, aerospace, and sports & entertainment industries.
@@ -43,7 +43,7 @@ const About: React.FC = () => {
           <div className="bg-white rounded-2xl p-8 md:p-12 mb-12 max-w-4xl mx-auto border-2 border-blue-200 shadow-lg">
             <div className="text-center mb-8">
               <div className="bg-blue-900 rounded-full p-4 shadow-xl inline-flex mb-4">
-                <Factory className="w-8 h-8 text-yellow-400" />
+                <Factory className="w-8 h-8 text-green-400" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Why Choose TerraGuard?
@@ -78,7 +78,7 @@ const About: React.FC = () => {
           <div className="bg-gray-50 rounded-2xl p-8 md:p-12 mb-12 max-w-4xl mx-auto border-2 border-gray-200 shadow-lg">
             <div className="text-center mb-8">
               <div className="bg-blue-900 rounded-full p-4 shadow-xl inline-flex mb-4">
-                <Award className="w-8 h-8 text-yellow-400" />
+                <Award className="w-8 h-8 text-green-400" />
               </div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
                 Trusted by Industry Leaders

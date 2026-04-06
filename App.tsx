@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import Breadcrumbs from './components/Breadcrumbs';
 import Home from './pages/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
@@ -19,6 +20,8 @@ import Automotive from './pages/industries/Automotive';
 import Manufacturing from './pages/industries/Manufacturing';
 import Aerospace from './pages/industries/Aerospace';
 import SportsEntertainment from './pages/industries/SportsEntertainment';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import TermsOfService from './pages/TermsOfService';
 
 const App: React.FC = () => {
   return (
@@ -26,6 +29,7 @@ const App: React.FC = () => {
           <ScrollToTop />
     <div className="min-h-screen flex flex-col">
       <Header />
+      <Breadcrumbs />
       
       <main className="flex-grow">
           <Routes>
@@ -50,6 +54,10 @@ const App: React.FC = () => {
             <Route path="/industries/aerospace" element={<Aerospace />} />
             <Route path="/industries/sports-entertainment" element={<SportsEntertainment />} />
             
+            {/* Legal */}
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms-of-service" element={<TermsOfService />} />
+
             {/* Redirects for old URLs */}
             <Route path="/commercial" element={<Navigate to="/flooring-systems" replace />} />
             <Route path="/residential" element={<Navigate to="/" replace />} />
@@ -65,8 +73,8 @@ const App: React.FC = () => {
 
       <Footer />
       
-      {/* Elfsight All-in-One Chat */}
-      <div className="elfsight-app-8d6fce49-bdbb-4276-a2df-2a4134016a6a" data-elfsight-app-lazy></div>
+      {/* Elfsight All-in-One Chat | TerraGuard */}
+      <div className="elfsight-app-bf50fac5-2cdd-4767-94c9-6c13cb99547b" data-elfsight-app-lazy></div>
     </div>
     </Router>
   );

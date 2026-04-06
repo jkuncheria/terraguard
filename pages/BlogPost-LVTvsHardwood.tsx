@@ -861,11 +861,11 @@ const BlogPostLVTvsHardwood: React.FC = () => {
                   Get a Free Consultation
                 </Link>
                 <a 
-                  href="tel:602-415-1919"
+                  href="tel:602-736-9955"
                   className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-blue-900 font-bold py-3 px-8 rounded-lg shadow-lg transition transform hover:scale-105"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Call 602-415-1919
+                  Call 602-736-9955
                 </a>
               </div>
             </div>

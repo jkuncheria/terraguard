@@ -57,7 +57,7 @@ const FoodBeverage: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-yellow-500 font-semibold tracking-wider uppercase">Industries</span>
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Industries</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Food & Beverage Flooring</h1>
               <p className="text-xl text-gray-300 mb-8">
                 USDA-compliant flooring solutions engineered for the demanding environments of food processing, commercial kitchens, and beverage production. TerraGuard delivers floors that meet the highest standards for food safety and durability.
@@ -65,7 +65,7 @@ const FoodBeverage: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contact"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
                 >
                   Get a Quote
                 </Link>
@@ -83,7 +83,7 @@ const FoodBeverage: React.FC = () => {
                 <ul className="space-y-3">
                   {clients.map((client, idx) => (
                     <li key={idx} className="flex items-center text-lg">
-                      <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                      <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                       {client}
                     </li>
                   ))}
@@ -187,23 +187,23 @@ const FoodBeverage: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Key Requirements</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>USDA/FDA compliance for food contact areas</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Thermal shock resistance for hot washdowns</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Seamless, cove base installation for hygiene</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Slip-resistant textures for wet areas</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Fast cure times to minimize downtime</span>
                 </li>
               </ul>
@@ -221,7 +221,7 @@ const FoodBeverage: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
+            className="inline-block bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
           >
             Request a Quote
           </Link>

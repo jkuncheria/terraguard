@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
+import ServiceSchema from '../components/ServiceSchema';
 import { SEO_CONFIG } from '../seoConfig';
 import Contact from '../components/Contact';
 import { CheckCircle, Droplets, Sun, Shield } from 'lucide-react';
@@ -49,13 +50,20 @@ const TrafficCoating: React.FC = () => {
         description={seo.description}
         canonical={`${SEO_CONFIG.baseUrl}${seo.path}`}
       />
+      <ServiceSchema
+        serviceName="Traffic Coating Systems Installation"
+        serviceType="Traffic Coating"
+        description="Durable traffic coating systems for parking structures, pedestrian walkways, and high-traffic commercial areas. Waterproof membrane protection."
+        url="/traffic-coating"
+        image="/images/flooring/traffic-coating.png"
+      />
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-900 to-gray-900 text-white py-20 px-4">
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-yellow-500 font-semibold tracking-wider uppercase">Flooring Systems</span>
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Flooring Systems</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Traffic Coating Systems</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Protect your parking structures, walkways, and high-traffic areas with durable traffic coating systems. TerraGuard installs waterproof, slip-resistant coatings that extend the life of your concrete surfaces.
@@ -63,7 +71,7 @@ const TrafficCoating: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contact"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
                 >
                   Get a Quote
                 </Link>
@@ -79,7 +87,8 @@ const TrafficCoating: React.FC = () => {
               <div className="rounded-2xl overflow-hidden shadow-2xl">
                 <img 
                   src="/images/flooring-systems/traffic-coating.png" 
-                  alt="Traffic Coating Systems"
+                  alt="Traffic coating systems for parking structures in Arizona by TerraGuard"
+                  loading="lazy"
                   className="w-full h-[400px] object-cover"
                 />
               </div>
@@ -235,7 +244,7 @@ const TrafficCoating: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
+            className="inline-block bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
           >
             Request a Quote
           </Link>

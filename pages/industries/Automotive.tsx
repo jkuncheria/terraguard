@@ -55,7 +55,7 @@ const Automotive: React.FC = () => {
         <div className="max-w-7xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <span className="text-yellow-500 font-semibold tracking-wider uppercase">Industries</span>
+              <span className="text-green-500 font-semibold tracking-wider uppercase">Industries</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 mb-6">Automotive Flooring</h1>
               <p className="text-xl text-gray-300 mb-8">
                 Heavy-duty flooring solutions for automotive manufacturing, service centers, and dealerships. TerraGuard delivers chemical-resistant, durable floors that stand up to the toughest automotive environments.
@@ -63,7 +63,7 @@ const Automotive: React.FC = () => {
               <div className="flex flex-col sm:flex-row gap-4">
                 <Link
                   to="/contact"
-                  className="bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
+                  className="bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-3 px-8 rounded shadow-lg transition text-center"
                 >
                   Get a Quote
                 </Link>
@@ -80,15 +80,15 @@ const Automotive: React.FC = () => {
                 <h3 className="text-xl font-bold mb-4">Trusted By:</h3>
                 <ul className="space-y-3">
                   <li className="flex items-center text-lg">
-                    <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                     Goodyear
                   </li>
                   <li className="flex items-center text-lg">
-                    <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                     Automotive Dealerships
                   </li>
                   <li className="flex items-center text-lg">
-                    <CheckCircle className="w-5 h-5 text-yellow-500 mr-3" />
+                    <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
                     Service Centers
                   </li>
                 </ul>
@@ -199,23 +199,23 @@ const Automotive: React.FC = () => {
               <h3 className="text-2xl font-bold mb-4">Key Requirements</h3>
               <ul className="space-y-4">
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Resistance to oils, fuels, and automotive fluids</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Heavy load capacity for lifts and equipment</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Slip-resistant surfaces for safety</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Easy cleanup of spills and debris</span>
                 </li>
                 <li className="flex items-start">
-                  <CheckCircle className="w-5 h-5 text-yellow-500 mr-3 mt-1 flex-shrink-0" />
+                  <CheckCircle className="w-5 h-5 text-green-500 mr-3 mt-1 flex-shrink-0" />
                   <span>Professional appearance for customer areas</span>
                 </li>
               </ul>
@@ -233,7 +233,7 @@ const Automotive: React.FC = () => {
           </p>
           <Link
             to="/contact"
-            className="inline-block bg-yellow-500 hover:bg-yellow-400 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
+            className="inline-block bg-green-500 hover:bg-green-500 text-blue-900 font-bold py-4 px-10 rounded-lg shadow-lg transition"
           >
             Request a Quote
           </Link>
