@@ -54,8 +54,14 @@ const Header: React.FC = () => {
       <div className="bg-white py-5 md:py-6 px-4 md:px-8 lg:px-16 shadow-sm">
         <div className="flex justify-between items-center md:grid md:grid-cols-3 relative min-h-[60px] md:min-h-0">
           
-          {/* Mobile Contact Button (Left side on mobile) */}
-          <div className="flex items-center md:hidden">
+          {/* Mobile Contact Buttons (Left side on mobile) */}
+          <div className="flex items-center gap-2 md:hidden">
+            <a 
+              href="tel:18556837720"
+              className="p-2 border-2 border-blue-900 text-blue-900 rounded-lg"
+            >
+              <Phone className="w-5 h-5" />
+            </a>
             <Link 
               to="/contact"
               onClick={scrollToTop}
@@ -88,8 +94,15 @@ const Header: React.FC = () => {
             </button>
           </div>
 
-          {/* Contact Button (Desktop) */}
+          {/* Contact Buttons (Desktop) */}
           <div className="hidden md:flex items-center space-x-3 md:col-start-3 md:col-end-4 md:justify-end">
+            <a 
+              href="tel:18556837720"
+              className="flex items-center border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-semibold text-sm px-4 py-2 rounded-lg transition-all"
+            >
+              <Phone className="w-4 h-4 mr-2" />
+              855-683-7720
+            </a>
             <Link 
               to="/contact"
               onClick={scrollToTop}

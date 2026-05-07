@@ -189,6 +189,34 @@ const ProjectGallery: React.FC = () => {
         </div>
       </section>
 
+      {/* Featured Video Section */}
+      <section className="py-16 bg-gray-50 px-6 lg:px-16">
+        <div className="container mx-auto">
+          <div className="text-center mb-10">
+            <span className="inline-block text-green-500 font-semibold tracking-wider text-sm uppercase mb-4">See Us In Action</span>
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Power Trowel Finishing</h2>
+            <p className="text-gray-600 max-w-2xl mx-auto">
+              Watch our team use professional power trowel equipment to achieve a smooth, durable concrete finish.
+            </p>
+          </div>
+          <div className="max-w-4xl mx-auto">
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-xl bg-black">
+              <video 
+                className="w-full h-full object-contain"
+                controls
+                preload="metadata"
+                playsInline
+                title="Power trowel concrete finishing by TerraGuard Arizona flooring contractor"
+                aria-label="Video showing professional power trowel equipment smoothing concrete floor surface"
+              >
+                <source src="/TerraGuard-Images/power-trowel.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Lightbox Modal */}
       {selectedProject && (
         <div

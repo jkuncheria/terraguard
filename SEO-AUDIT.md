@@ -140,7 +140,7 @@ Sitemap: https://www.absflooring.com/sitemap.xml
   "image": "https://www.absflooring.com/abslogo.png",
   "url": "https://www.absflooring.com",
   "telephone": "+1-602-415-1919",
-  "email": "caleb@terraguardusa.com",
+  "email": "info@terraguardusa.com",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "1430 N 29th Ave",

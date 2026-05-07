@@ -47,7 +47,7 @@ export const SEO_CONFIG = {
     },
     automotive: {
       title: 'Automotive Flooring Arizona | TerraGuard',
-      description: 'Heavy-duty flooring for automotive manufacturing, service centers, dealerships & warehouses. Chemical resistant, durable epoxy and urethane systems. Trusted by Goodyear.',
+      description: 'Heavy-duty flooring for automotive manufacturing, service centers, dealerships & warehouses. Chemical resistant, durable epoxy and urethane systems.',
       path: '/industries/automotive'
     },
     manufacturing: {
@@ -82,8 +82,48 @@ export const SEO_CONFIG = {
     },
     projectGallery: {
       title: 'Commercial Flooring Project Gallery | TerraGuard Arizona',
-      description: 'View our portfolio of commercial and industrial flooring projects. Food processing, automotive, aerospace, manufacturing & more. Trusted by Goodyear, ASU, Pepsi.',
+      description: 'View our portfolio of commercial and industrial flooring projects. Food processing, automotive, aerospace, manufacturing & more. Trusted by ASU, Pepsi & more.',
       path: '/project-gallery'
+    },
+    phoenixCommercial: {
+      title: 'Commercial Flooring Phoenix AZ | TerraGuard',
+      description: 'Professional commercial flooring installation in Phoenix, Arizona. Epoxy, polished concrete, LVT & more for offices, retail, restaurants & industrial spaces.',
+      path: '/commercial-flooring-phoenix'
+    },
+    scottsdaleCommercial: {
+      title: 'Commercial Flooring Scottsdale AZ | TerraGuard',
+      description: 'Professional commercial flooring installation in Scottsdale, Arizona. Epoxy, polished concrete, LVT & more for offices, retail, restaurants & industrial spaces.',
+      path: '/commercial-flooring-scottsdale'
+    },
+    stainedConcrete: {
+      title: 'Stained Concrete Flooring Arizona | TerraGuard',
+      description: 'Professional stained concrete flooring in Arizona. Acid stains, water-based stains & decorative concrete for commercial and industrial spaces.',
+      path: '/stained-concrete'
+    },
+    floorRestoration: {
+      title: 'Floor Restoration Arizona | TerraGuard',
+      description: 'Professional floor restoration services in Arizona. Concrete repair, resurfacing & refinishing for commercial and industrial facilities.',
+      path: '/floor-restoration'
+    },
+    moistureTesting: {
+      title: 'Moisture Testing Arizona | TerraGuard',
+      description: 'Professional ICRI-certified moisture testing for concrete slabs in Arizona. Ensure your flooring investment with proper moisture assessment.',
+      path: '/moisture-testing'
+    },
+    allFlooringProducts: {
+      title: 'All Flooring Products | TerraGuard Arizona',
+      description: 'Browse our complete selection of commercial flooring products. Carpet, hardwood, laminate, LVT, tile & more for Arizona businesses.',
+      path: '/all-flooring-products'
+    },
+    commercial: {
+      title: 'Commercial Flooring Arizona | TerraGuard',
+      description: 'Professional commercial flooring solutions for Arizona businesses. Office, retail, restaurant & hospitality flooring installation.',
+      path: '/commercial'
+    },
+    residential: {
+      title: 'Residential Flooring Arizona | TerraGuard',
+      description: 'Quality residential flooring installation in Arizona. Hardwood, carpet, LVT, tile & laminate for homes throughout the Phoenix metro area.',
+      path: '/residential'
     }
   }
 };

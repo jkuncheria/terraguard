@@ -133,13 +133,24 @@ const Contact: React.FC<ContactProps> = ({ simplified = false }) => {
               </p>
 
               <div className="space-y-6">
-                <a href="mailto:caleb@terraguardusa.com" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
+                <a href="tel:18556837720" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
+                  <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
+                    <Phone className="w-6 h-6 text-white" />
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-900 transition-colors">Phone</h4>
+                    <p className="text-gray-700 font-semibold break-words text-sm sm:text-base">855-683-7720</p>
+                    <p className="text-sm text-gray-500 mt-1">Mon-Fri 8am-5pm MST</p>
+                  </div>
+                </a>
+
+                <a href="mailto:info@terraguardusa.com" className="group flex items-start p-4 rounded-xl hover:bg-blue-50 transition-all duration-300 border border-transparent hover:border-blue-100">
                   <div className="bg-gradient-to-br from-blue-900 to-blue-800 p-4 rounded-xl mr-4 group-hover:scale-110 transition-transform shadow-md flex-shrink-0">
                     <Mail className="w-6 h-6 text-white" />
                   </div>
                   <div className="flex-1 min-w-0">
                     <h4 className="font-bold text-gray-900 mb-1 group-hover:text-blue-900 transition-colors">Email</h4>
-                    <p className="text-gray-700 font-semibold break-words text-sm sm:text-base">caleb@terraguardusa.com</p>
+                    <p className="text-gray-700 font-semibold break-words text-sm sm:text-base">info@terraguardusa.com</p>
                     <p className="text-sm text-gray-500 mt-1">We respond within 24 hours</p>
                   </div>
                 </a>

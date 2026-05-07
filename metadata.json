@@ -1,6 +1,6 @@
 {
   "name": "TerraGuard",
-  "description": "TerraGuard is Arizona's premier commercial and industrial flooring contractor specializing in epoxy, urethane cement, ESD/conductive flooring, traffic coatings, and polished concrete. Licensed contractor serving food & beverage, automotive, manufacturing, aerospace, and sports & entertainment industries. Trusted by Goodyear, ASU, Pepsi, University of Arizona, and more.",
+  "description": "TerraGuard is Arizona's premier commercial and industrial flooring contractor specializing in epoxy, urethane cement, ESD/conductive flooring, traffic coatings, and polished concrete. Licensed contractor serving food & beverage, automotive, manufacturing, aerospace, and sports & entertainment industries. Trusted by ASU, Pepsi, University of Arizona, and more.",
   "requestFramePermissions": [
     "microphone"
   ]

@@ -30,7 +30,8 @@ const Footer: React.FC = () => {
               3414 S. 48th Street, Suite #1, Phoenix, AZ 85040
             </p>
             <div className="text-sm text-gray-600 mb-4 space-y-1">
-              <p className="flex items-center"><Mail className="w-4 h-4 mr-2" /><a href="mailto:caleb@terraguardusa.com" className="hover:text-blue-900">caleb@terraguardusa.com</a></p>
+              <p className="flex items-center"><Phone className="w-4 h-4 mr-2" /><a href="tel:18556837720" className="hover:text-blue-900">855-683-7720</a></p>
+              <p className="flex items-center"><Mail className="w-4 h-4 mr-2" /><a href="mailto:info@terraguardusa.com" className="hover:text-blue-900">info@terraguardusa.com</a></p>
             </div>
           </div>
 

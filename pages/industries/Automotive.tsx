@@ -81,7 +81,7 @@ const Automotive: React.FC = () => {
                 <ul className="space-y-3">
                   <li className="flex items-center text-lg">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />
-                    Goodyear
+                    Major Tire Retailers
                   </li>
                   <li className="flex items-center text-lg">
                     <CheckCircle className="w-5 h-5 text-green-500 mr-3" />

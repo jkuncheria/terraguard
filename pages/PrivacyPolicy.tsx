@@ -75,7 +75,7 @@ const PrivacyPolicy: React.FC = () => {
             <p className="text-gray-700 mb-4"><strong>Message Frequency:</strong> Message frequency varies based on your interactions with us and your preferences.</p>
             <p className="text-gray-700 mb-4"><strong>Message and Data Rates:</strong> Standard message and data rates may apply depending on your mobile carrier and plan.</p>
             <p className="text-gray-700 mb-4"><strong>Opt-Out:</strong> You may opt out of receiving text messages at any time by replying STOP to any message. After opting out, you will receive a confirmation message and will no longer receive text messages from us unless you opt in again.</p>
-            <p className="text-gray-700"><strong>Help:</strong> For help, reply HELP to any message or contact us at <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a> or <a href="mailto:caleb@terraguardusa.com" className="text-blue-900 hover:underline">caleb@terraguardusa.com</a>.</p>
+            <p className="text-gray-700"><strong>Help:</strong> For help, reply HELP to any message or contact us at <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a> or <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a>.</p>
           </div>
 
           <h2 className="text-2xl font-bold text-gray-900 mt-10 mb-4">4. Information Sharing and Disclosure</h2>
@@ -116,7 +116,7 @@ const PrivacyPolicy: React.FC = () => {
               <strong>Phone:</strong> <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a>
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:caleb@terraguardusa.com" className="text-blue-900 hover:underline">caleb@terraguardusa.com</a>
+              <strong>Email:</strong> <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a>
             </p>
           </div>
 

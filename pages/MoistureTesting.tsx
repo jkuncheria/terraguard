@@ -90,7 +90,7 @@ const MoistureTesting: React.FC = () => {
                   Schedule Testing
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:16027369955" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+                <a href="tel:18556837720" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Us
                 </a>
@@ -210,11 +210,11 @@ const MoistureTesting: React.FC = () => {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
             <a 
-              href="tel:16027369955" 
+              href="tel:18556837720" 
               className="bg-white hover:bg-gray-100 text-blue-900 font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2"
             >
               <Phone className="w-5 h-5" />
-              Call 602-736-9955
+              Call 855-683-7720
             </a>
           </div>
         </div>

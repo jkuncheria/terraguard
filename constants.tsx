@@ -72,13 +72,12 @@ export const DIFFERENCE_FEATURES: Feature[] = [
   },
   {
     title: 'Trusted by Industry Leaders',
-    description: 'Proud to serve Goodyear, ASU, Pepsi, University of Arizona, JBS Harvest, and more.',
+    description: 'Proud to serve ASU, Pepsi, University of Arizona, JBS Harvest, and more.',
     icon: <BadgeCheck className="w-8 h-8 text-blue-900" />,
   },
 ];
 
 export const CLIENTS = [
-  'Goodyear',
   'Arizona State University',
   'Pepsi',
   'JBS Harvest',

@@ -7,7 +7,7 @@ import LogoBanner from '../components/LogoBanner';
 import AboutHome from '../components/AboutHome';
 import Categories from '../components/Categories';
 import Contact from '../components/Contact';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Phone } from 'lucide-react';
 
 const Home: React.FC = () => {
   const seo = SEO_CONFIG.pages.home;
@@ -42,6 +42,13 @@ const Home: React.FC = () => {
               Request a Quote
               <ArrowRight className="w-5 h-5 ml-2" />
             </Link>
+            <a 
+              href="tel:18556837720"
+              className="inline-flex items-center justify-center bg-white hover:bg-gray-100 text-gray-900 font-semibold py-4 px-8 rounded-lg transition-all"
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              855-683-7720
+            </a>
           </div>
         </div>
       </section>

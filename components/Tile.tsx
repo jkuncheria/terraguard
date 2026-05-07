@@ -81,7 +81,7 @@ const Tile: React.FC = () => {
                 Durable Beauty That Lasts
               </h1>
               <div className="w-20 h-1 bg-yellow-500 mb-6"></div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-gray-600 leading-relaxed">
                 Discover the perfect combination of style and durability with our premium tile flooring. From elegant 
                 natural stone to modern porcelain, find the ideal tile to enhance any commercial space.
               </p>
@@ -90,7 +90,7 @@ const Tile: React.FC = () => {
                   Contact Us
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:16027369955" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+                <a href="tel:855-683-7720" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Us
                 </a>
@@ -187,7 +187,7 @@ const Tile: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           <div className="bg-gray-50 rounded-2xl p-8 md:p-10">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Professional Installation</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed">
               Proper tile installation requires skill and precision. Our certified installers ensure level surfaces, 
               proper spacing, and flawless grout work for beautiful, long-lasting results.
             </p>
@@ -212,7 +212,7 @@ const Tile: React.FC = () => {
           </div>
           <div className="bg-gray-50 rounded-2xl p-8 md:p-10">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Care & Maintenance</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed">
               Tile floors are incredibly easy to maintain. With simple regular care, your tile will look beautiful 
               for years to come.
             </p>
@@ -242,7 +242,7 @@ const Tile: React.FC = () => {
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Ready to Install Beautiful Tile?
           </h3>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             Visit our showroom to see our extensive tile collection, or schedule a free on-site consultation 
             to explore options for your space.
           </p>
@@ -251,7 +251,7 @@ const Tile: React.FC = () => {
               Contact Us
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <a href="tel:16027369955" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+            <a href="tel:18556837720" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
               <Phone className="w-5 h-5" />
               Call Us
             </a>

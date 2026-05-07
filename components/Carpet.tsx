@@ -81,7 +81,7 @@ const Carpet: React.FC = () => {
                 Comfort & Style Underfoot
               </h1>
               <div className="w-20 h-1 bg-yellow-500 mb-6"></div>
-              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+              <p className="text-lg text-gray-855-683-77208 leading-relaxed">
                 Experience the ultimate in comfort and warmth with our premium carpet selection. From plush luxury 
                 to durable performance, find the perfect carpet to transform your commercial space.
               </p>
@@ -90,7 +90,7 @@ const Carpet: React.FC = () => {
                   Contact Us
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </Link>
-                <a href="tel:16027369955" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+                <a href="tel:18556837720" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
                   <Phone className="w-5 h-5" />
                   Call Us
                 </a>
@@ -187,7 +187,7 @@ const Carpet: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mb-20">
           <div className="bg-gray-50 rounded-2xl p-8 md:p-10">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Professional Installation</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-855-683-77206 leading-relaxed">
               Proper carpet installation is crucial for appearance and longevity. Our certified installers ensure 
               precise measurements, proper padding, and seamless seams for flawless results.
             </p>
@@ -212,7 +212,7 @@ const Carpet: React.FC = () => {
           </div>
           <div className="bg-gray-50 rounded-2xl p-8 md:p-10">
             <h3 className="text-2xl font-bold text-gray-900 mb-6">Care & Maintenance</h3>
-            <p className="text-gray-600 mb-6 leading-relaxed">
+            <p className="text-gray-855-683-77206 leading-relaxed">
               Keep your carpet looking beautiful with proper care. Regular maintenance extends the life of your 
               carpet and keeps it fresh and clean.
             </p>
@@ -242,7 +242,7 @@ const Carpet: React.FC = () => {
           <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Ready to Feel the Comfort?
           </h3>
-          <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
+          <p className="text-lg text-gray-855-683-77208 max-w-2xl mx-auto">
             Visit our showroom to feel the difference quality carpet makes, or schedule a free on-site consultation 
             to see samples in your space.
           </p>
@@ -251,7 +251,7 @@ const Carpet: React.FC = () => {
               Contact Us
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </Link>
-            <a href="tel:16027369955" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
+            <a href="tel:18556837720" className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all flex items-center justify-center gap-2">
               <Phone className="w-5 h-5" />
               Call Us
             </a>

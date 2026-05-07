@@ -11,10 +11,6 @@ const LogoBanner: React.FC = () => {
       image: '/Logos/new-logos/gkn-aerospace.jpeg',
     },
     {
-      name: 'Goodyear',
-      image: '/Logos/new-logos/goodyear.png',
-    },
-    {
       name: 'JBS',
       image: '/Logos/new-logos/JBS-Logo.png',
     },

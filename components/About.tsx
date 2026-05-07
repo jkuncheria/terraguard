@@ -3,7 +3,6 @@ import { Shield, Factory, Award, CheckCircle } from 'lucide-react';
 
 const About: React.FC = () => {
   const clients = [
-    'Goodyear',
     'Arizona State University',
     'Pepsi',
     'JBS Harvest',

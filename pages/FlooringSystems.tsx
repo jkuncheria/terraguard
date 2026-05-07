@@ -106,6 +106,52 @@ const FlooringSystems: React.FC = () => {
         </div>
       </section>
 
+      {/* Shot Blasting Video Section */}
+      <section className="py-16 px-4 md:px-16 bg-white">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+              <span className="inline-block text-green-500 font-semibold tracking-wider text-sm uppercase mb-4">Surface Preparation</span>
+              <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Shot Blasting Technology</h2>
+              <p className="text-gray-600 mb-6">
+                Proper surface preparation is critical for flooring system longevity. Our shot blasting equipment removes contaminants and creates the ideal surface profile for coating adhesion.
+              </p>
+              <ul className="space-y-3 text-gray-700">
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Removes old coatings and contaminants
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Creates optimal surface profile for adhesion
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Dust-free operation with vacuum recovery
+                </li>
+                <li className="flex items-start">
+                  <span className="text-green-500 mr-2">✓</span>
+                  Environmentally friendly process
+                </li>
+              </ul>
+            </div>
+            <div className="aspect-video rounded-2xl overflow-hidden shadow-xl bg-black">
+              <video 
+                className="w-full h-full object-contain"
+                controls
+                preload="metadata"
+                playsInline
+                title="Shot blasting concrete surface preparation by TerraGuard Arizona flooring contractor"
+                aria-label="Video demonstrating shot blasting equipment preparing concrete surface for industrial flooring installation"
+              >
+                <source src="/TerraGuard-Images/shot-blaster.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Industries Section */}
       <section className="py-16 px-4 md:px-16 bg-white">
         <div className="max-w-7xl mx-auto">
@@ -143,8 +189,6 @@ const FlooringSystems: React.FC = () => {
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-8">Trusted by Industry Leaders</h2>
           <div className="flex flex-wrap justify-center gap-8 text-xl text-gray-300">
-            <span>Goodyear</span>
-            <span>•</span>
             <span>Arizona State University</span>
             <span>•</span>
             <span>Pepsi</span>

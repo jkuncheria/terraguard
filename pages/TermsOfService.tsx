@@ -67,7 +67,7 @@ const TermsOfService: React.FC = () => {
             </p>
             <ul className="list-none text-gray-700 mb-6 space-y-1">
               <li>Phone: <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a></li>
-              <li>Email: <a href="mailto:caleb@terraguardusa.com" className="text-blue-900 hover:underline">caleb@terraguardusa.com</a></li>
+              <li>Email: <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a></li>
             </ul>
 
             <h3 className="text-xl font-bold text-blue-900 mb-3">Message and Data Rates</h3>
@@ -105,7 +105,7 @@ const TermsOfService: React.FC = () => {
               <strong>Phone:</strong> <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a>
             </p>
             <p>
-              <strong>Email:</strong> <a href="mailto:caleb@terraguardusa.com" className="text-blue-900 hover:underline">caleb@terraguardusa.com</a>
+              <strong>Email:</strong> <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a>
             </p>
           </div>
 

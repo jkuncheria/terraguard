@@ -142,10 +142,10 @@ const AllFlooringProducts: React.FC = () => {
               Get Free Consultation
             </Link>
             <a 
-              href="tel:16027369955"
+              href="tel:18556837720"
               className="border-2 border-blue-900 text-blue-900 hover:bg-blue-900 hover:text-white font-bold py-4 px-8 rounded-xl transition-all inline-flex items-center justify-center gap-2"
             >
-              Call 602-736-9955
+              Call 855-683-7720
             </a>
           </div>
         </div>
