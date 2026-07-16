@@ -1,0 +1,14 @@
+# robots.txt for TerraGuard
+# https://www.terraguardusa.com
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.terraguardusa.com/sitemap.xml
+
+# Crawl-delay for polite crawling
+Crawl-delay: 1
+
+# Disallow admin or private paths (if any)
+Disallow: /api/

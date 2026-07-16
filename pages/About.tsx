@@ -1,5 +1,6 @@
 import React from 'react';
 import AboutComponent from '../components/About';
+import Partners from '../components/Partners';
 import Contact from '../components/Contact';
 import SEO from '../components/SEO';
 import { SEO_CONFIG } from '../seoConfig';
@@ -15,6 +16,7 @@ const About: React.FC = () => {
         canonical={`${SEO_CONFIG.baseUrl}${seo.path}`}
       />
       <AboutComponent />
+      <Partners />
       <Contact simplified={true} />
     </>
   );

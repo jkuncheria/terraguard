@@ -5,10 +5,10 @@ const About: React.FC = () => {
   const clients = [
     'Arizona State University',
     'Pepsi',
-    'JBS Harvest',
     'University of Arizona',
-    'Royal Oaks',
-    'Halal Guys',
+    'Factor',
+    'HelloFresh',
+    'Hims',
   ];
 
   return (
