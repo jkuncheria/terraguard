@@ -18,6 +18,31 @@ const ProjectGallery: React.FC = () => {
 
   const projects: Project[] = [
     {
+      id: 'gti-fabrication',
+      name: 'GTI Fabrication',
+      description: 'ESD (electrostatic dissipative) flooring system spanning 4,800 sq ft at GTI Fabrication. Static-control coating engineered to protect sensitive electronics and equipment from electrostatic discharge in demanding manufacturing environments.',
+      industry: 'Manufacturing',
+      images: [
+        '/TerraGuard-Images/projects/GTI Fabrication/GTI Fabrication (ESD) - After (1).jpg',
+        '/TerraGuard-Images/projects/GTI Fabrication/GTI Fabrication (ESD) - After (2).jpg',
+        '/TerraGuard-Images/projects/GTI Fabrication/GTI Fabrication (ESD) - After (3).jpg',
+        '/TerraGuard-Images/projects/GTI Fabrication/GTI Fabrication (ESD) - After (4).jpg',
+      ]
+    },
+    {
+      id: 'kettle-heroes-popcorn',
+      name: 'Kettle Heroes Popcorn',
+      description: 'Urethane cement flooring installation using Sika Ucrete SLB across 4,798 sq ft at Kettle Heroes Popcorn\'s production facility. USDA-compliant, thermal shock and chemical resistant system engineered for the demanding sanitation requirements of food manufacturing.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/Kettle Heroes Popcorn/Kettle Heroes Popcorn (Urethane Cement) - After (1).jpg',
+        '/TerraGuard-Images/projects/Kettle Heroes Popcorn/Kettle Heroes Popcorn (Urethane Cement) - After (2).jpg',
+        '/TerraGuard-Images/projects/Kettle Heroes Popcorn/Kettle Heroes Popcorn (Urethane Cement) - After (3).jpg',
+        '/TerraGuard-Images/projects/Kettle Heroes Popcorn/Kettle Heroes Popcorn (Urethane Cement) - After (4).jpg',
+        '/TerraGuard-Images/projects/Kettle Heroes Popcorn/Kettle Heroes Popcorn (Urethane Cement) - After (5).jpg',
+      ]
+    },
+    {
       id: 'asu-wet-lab',
       name: 'ASU Wet Lab',
       description: 'High-performance epoxy flooring installation for Arizona State University\'s wet laboratory facility. Chemical-resistant coating designed to withstand harsh lab environments.',
@@ -95,6 +120,150 @@ const ProjectGallery: React.FC = () => {
         '/TerraGuard-Images/projects/Project Discovery/3.png',
         '/TerraGuard-Images/projects/Project Discovery/4.png',
         '/TerraGuard-Images/projects/Project Discovery/5.png',
+      ]
+    },
+    {
+      id: 'jbs-harvest',
+      name: 'JBS Harvest',
+      description: 'Urethane cement flooring installation for JBS Harvest food processing facility. USDA-compliant, thermal shock resistant, and engineered to handle the demanding sanitation requirements of meat processing.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/JBS-Harvest/1.png',
+        '/TerraGuard-Images/projects/JBS-Harvest/2.png',
+        '/TerraGuard-Images/projects/JBS-Harvest/3.png',
+        '/TerraGuard-Images/projects/JBS-Harvest/4.png',
+        '/TerraGuard-Images/projects/JBS-Harvest/5.png',
+      ]
+    },
+    {
+      id: 'dema-vmf',
+      name: 'DEMA VMF',
+      description: 'Quarter inch epoxy mortar flooring system designed for heavy-duty industrial use. Provides exceptional impact resistance and long-term durability for demanding operational environments.',
+      industry: 'Industrial',
+      images: [
+        '/TerraGuard-Images/projects/Dema-VMF/1.png',
+        '/TerraGuard-Images/projects/Dema-VMF/2.png',
+      ]
+    },
+    {
+      id: 'jspc-warehouse',
+      name: 'JSPC Warehouse',
+      description: 'Metallic epoxy flooring installation spanning 15,000 sq ft. Combines a striking decorative finish with the durability and chemical resistance required for warehouse operations.',
+      industry: 'Warehouse',
+      images: [
+        '/TerraGuard-Images/projects/JSPC-Warehouse/1.png',
+        '/TerraGuard-Images/projects/JSPC-Warehouse/2.png',
+        '/TerraGuard-Images/projects/JSPC-Warehouse/3.png',
+        '/TerraGuard-Images/projects/JSPC-Warehouse/4.png',
+        '/TerraGuard-Images/projects/JSPC-Warehouse/5.png',
+      ]
+    },
+    {
+      id: 'stream-data-center',
+      name: 'Stream Data Center',
+      description: 'Thin film epoxy flooring system across 25,000 sq ft of mission-critical data center space. Clean, dust-resistant finish engineered for high-traffic technical environments.',
+      industry: 'Data Center',
+      images: [
+        '/TerraGuard-Images/projects/Stream-Data-Center/1.png',
+        '/TerraGuard-Images/projects/Stream-Data-Center/2.png',
+        '/TerraGuard-Images/projects/Stream-Data-Center/3.png',
+      ]
+    },
+    {
+      id: 'halal-guys',
+      name: 'Halal Guys',
+      description: 'Thin film epoxy flooring installation for The Halal Guys commercial kitchen. Seamless, easy-to-clean finish that meets food service sanitation standards.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/Halal-Guys/1.png',
+        '/TerraGuard-Images/projects/Halal-Guys/2.png',
+        '/TerraGuard-Images/projects/Halal-Guys/3.png',
+      ]
+    },
+    {
+      id: 'university-of-arizona-hsib',
+      name: 'University of Arizona HSIB',
+      description: 'Epoxy quartz flooring installation at the University of Arizona Health Sciences Innovation Building. Slip-resistant, decorative finish engineered for high-performance educational and research environments.',
+      industry: 'Education',
+      images: [
+        '/TerraGuard-Images/projects/University of Arizona HSIB/1.png',
+        '/TerraGuard-Images/projects/University of Arizona HSIB/2.png',
+        '/TerraGuard-Images/projects/University of Arizona HSIB/3.png',
+        '/TerraGuard-Images/projects/University of Arizona HSIB/4.png',
+        '/TerraGuard-Images/projects/University of Arizona HSIB/5.png',
+        '/TerraGuard-Images/projects/University of Arizona HSIB/6.png',
+      ]
+    },
+    {
+      id: 'benchmark-electronics',
+      name: 'Benchmark Electronics',
+      description: 'Epoxy flake flooring system for Benchmark Electronics manufacturing facility. Decorative, durable finish that provides chemical resistance and easy maintenance for electronics production environments.',
+      industry: 'Manufacturing',
+      images: [
+        '/TerraGuard-Images/projects/Benchmark-Electronics/1.png',
+        '/TerraGuard-Images/projects/Benchmark-Electronics/2.png',
+        '/TerraGuard-Images/projects/Benchmark-Electronics/3.png',
+      ]
+    },
+    {
+      id: 'royal-oaks',
+      name: 'Royal Oaks',
+      description: 'Polished concrete flooring installation at Royal Oaks. Low-maintenance, reflective finish providing a high-end aesthetic alongside long-term durability.',
+      industry: 'Commercial',
+      images: [
+        '/TerraGuard-Images/projects/Royal-Oaks/1.png',
+        '/TerraGuard-Images/projects/Royal-Oaks/2.png',
+      ]
+    },
+    {
+      id: 'factor-75-goodyear-grind-seal',
+      name: 'Factor 75 Goodyear – Grind & Seal',
+      description: 'Grind & seal concrete installation spanning 30,000 sq ft at Factor 75\'s Goodyear food production facility. Provides a durable, low-maintenance finish with enhanced surface protection.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/Factor75-Grind/1.png',
+        '/TerraGuard-Images/projects/Factor75-Grind/2.png',
+        '/TerraGuard-Images/projects/Factor75-Grind/3.png',
+      ]
+    },
+    {
+      id: 'factor-75-goodyear-sealed-concrete',
+      name: 'Factor 75 Goodyear – Sealed Concrete',
+      description: 'Sealed concrete installation spanning 170,000 sq ft at Factor 75\'s Goodyear food production facility. Large-scale densified and sealed finish engineered for warehouse and production environments.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/Factor75-Sealed/1.png',
+        '/TerraGuard-Images/projects/Factor75-Sealed/2.png',
+        '/TerraGuard-Images/projects/Factor75-Sealed/3.png',
+      ]
+    },
+    {
+      id: 'one-camelback',
+      name: 'One Camelback',
+      description: 'Polishable topping installation spanning 12,500 sq ft at One Camelback. High-end decorative concrete finish engineered for premium commercial spaces.',
+      industry: 'Commercial',
+      images: [
+        '/TerraGuard-Images/projects/One-Camelback/1.png',
+        '/TerraGuard-Images/projects/One-Camelback/2.png',
+        '/TerraGuard-Images/projects/One-Camelback/3.png',
+        '/TerraGuard-Images/projects/One-Camelback/4.png',
+        '/TerraGuard-Images/projects/One-Camelback/5.png',
+      ]
+    },
+    {
+      id: 'mco-joc-jackson-st-garage',
+      name: 'MCO JOC Jackson St. Garage',
+      description: 'Recently completed Traffic Coating system installation spanning 87,990 sq ft. Durable waterproof membrane protection designed for high-traffic parking structure environments.',
+      industry: 'Parking Structure',
+      images: [
+        '/TerraGuard-Images/projects/Jackson-St-Garage/1.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/2.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/3.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/4.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/5.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/6.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/7.jpg',
+        '/TerraGuard-Images/projects/Jackson-St-Garage/8.jpg',
       ]
     },
   ];
@@ -226,10 +395,11 @@ const ProjectGallery: React.FC = () => {
           <div className="relative w-full h-full flex flex-col" onClick={(e) => e.stopPropagation()}>
             
             {/* Header */}
-            <div className="flex items-center justify-between p-4 md:p-6 border-b border-white/10">
-              <div>
+            <div className="flex items-start justify-between gap-4 p-4 md:p-6 border-b border-white/10">
+              <div className="max-w-3xl">
                 <h2 className="text-xl md:text-2xl font-bold text-white">{selectedProject.name}</h2>
-                <p className="text-gray-400 text-sm">{selectedProject.industry}</p>
+                <p className="text-green-500 text-sm font-semibold mb-2">{selectedProject.industry}</p>
+                <p className="text-gray-300 text-sm md:text-base">{selectedProject.description}</p>
               </div>
               <button
                 onClick={closeProject}
@@ -240,7 +410,7 @@ const ProjectGallery: React.FC = () => {
             </div>
 
             {/* Main Image Area */}
-            <div className="flex-1 flex items-center justify-center relative px-4 py-8">
+            <div className="flex-1 min-h-0 flex items-center justify-center relative px-4 py-8">
               {/* Previous Button */}
               {currentImageIndex > 0 && (
                 <button
@@ -255,7 +425,7 @@ const ProjectGallery: React.FC = () => {
               <img
                 src={selectedProject.images[currentImageIndex]}
                 alt={`${selectedProject.name} - Image ${currentImageIndex + 1}`}
-                className="max-h-[70vh] max-w-full object-contain rounded-lg"
+                className="max-h-full max-w-full object-contain rounded-lg"
               />
 
               {/* Next Button */}

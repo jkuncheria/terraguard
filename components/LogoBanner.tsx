@@ -1,14 +1,14 @@
 import React from 'react';
 
 const LogoBanner: React.FC = () => {
-  const logos = [
+  const logos: { name: string; image: string; sizeClass?: string; maxWidth?: string }[] = [
     {
       name: 'ASU',
       image: '/Logos/new-logos/asu.png',
     },
     {
       name: 'GKN Aerospace',
-      image: '/Logos/new-logos/gkn-aerospace.jpeg',
+      image: '/Logos/new-logos/gkn-aerospace.png',
     },
     {
       name: 'JBS',
@@ -17,6 +17,7 @@ const LogoBanner: React.FC = () => {
     {
       name: 'Pepsi',
       image: '/Logos/new-logos/pepsi.svg',
+      sizeClass: 'h-14 md:h-20',
     },
     {
       name: 'Royal Oaks',
@@ -28,7 +29,7 @@ const LogoBanner: React.FC = () => {
     },
     {
       name: 'Factor',
-      image: '/Logos/new-logos/factor-food.jpeg',
+      image: '/Logos/new-logos/factor-food.png',
     },
     {
       name: 'HelloFresh',
@@ -37,6 +38,12 @@ const LogoBanner: React.FC = () => {
     {
       name: 'Purina',
       image: '/Logos/new-logos/Purina-Logo.png',
+    },
+    {
+      name: 'Kettle Heroes Popcorn',
+      image: '/Logos/new-logos/kettle-heroes.png',
+      sizeClass: 'h-14 md:h-20',
+      maxWidth: '150px',
     },
   ];
 
@@ -84,8 +91,8 @@ const LogoBanner: React.FC = () => {
                   src={logo.image}
                   alt={`${logo.name} - TerraGuard project partner`}
                   loading="lazy"
-                  className="h-12 md:h-16 w-auto object-contain"
-                  style={{ minWidth: '100px', maxWidth: '160px' }}
+                  className={`${logo.sizeClass ?? 'h-12 md:h-16'} w-auto object-contain`}
+                  style={{ minWidth: '100px', maxWidth: logo.maxWidth ?? '160px' }}
                 />
               </div>
             ))}
