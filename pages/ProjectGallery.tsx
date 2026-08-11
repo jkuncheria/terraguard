@@ -266,6 +266,19 @@ const ProjectGallery: React.FC = () => {
         '/TerraGuard-Images/projects/Jackson-St-Garage/8.jpg',
       ]
     },
+    {
+      id: 'chavez-kitchen-remodel',
+      name: 'Chavez Kitchen Remodel',
+      description: 'Urethane cement flooring installation spanning 4,600 sq ft as part of a full commercial kitchen remodel. USDA-compliant, thermal shock and chemical resistant system built to hold up to hot water washdowns, grease, and heavy daily foot traffic.',
+      industry: 'Food & Beverage',
+      images: [
+        '/TerraGuard-Images/projects/Chavez-Kitchen/Chavez Kitchen Remodel (Urethane Cement) - After (1).jpg',
+        '/TerraGuard-Images/projects/Chavez-Kitchen/Chavez Kitchen Remodel (Urethane Cement) - After (2).jpg',
+        '/TerraGuard-Images/projects/Chavez-Kitchen/Chavez Kitchen Remodel (Urethane Cement) - After (3).jpg',
+        '/TerraGuard-Images/projects/Chavez-Kitchen/Chavez Kitchen Remodel (Urethane Cement) - After (4).jpg',
+        '/TerraGuard-Images/projects/Chavez-Kitchen/Chavez Kitchen Remodel (Urethane Cement) - After (5).jpg',
+      ]
+    },
   ];
 
   const openProject = (project: Project) => {
