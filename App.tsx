@@ -73,8 +73,6 @@ const App: React.FC = () => {
 
       <Footer />
       
-      {/* Elfsight All-in-One Chat | TerraGuard */}
-      <div className="elfsight-app-bf50fac5-2cdd-4767-94c9-6c13cb99547b" data-elfsight-app-lazy></div>
     </div>
     </Router>
   );
