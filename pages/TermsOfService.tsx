@@ -66,7 +66,7 @@ const TermsOfService: React.FC = () => {
               If you experience issues with the messaging program, reply with the keyword <strong>"HELP"</strong> for more assistance, or reach out directly to:
             </p>
             <ul className="list-none text-gray-700 mb-6 space-y-1">
-              <li>Phone: <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a></li>
+              <li>Phone: <a href="tel:18556837720" className="text-blue-900 hover:underline">855-683-7720</a></li>
               <li>Email: <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a></li>
             </ul>
 
@@ -102,7 +102,7 @@ const TermsOfService: React.FC = () => {
           <div className="bg-gray-50 rounded-xl p-6 mt-4 mb-8 border border-gray-200">
             <p className="font-bold text-gray-900 mb-2">TerraGuard</p>
             <p className="mt-2">
-              <strong>Phone:</strong> <a href="tel:6024151919" className="text-blue-900 hover:underline">(602) 415-1919</a>
+              <strong>Phone:</strong> <a href="tel:18556837720" className="text-blue-900 hover:underline">855-683-7720</a>
             </p>
             <p>
               <strong>Email:</strong> <a href="mailto:info@terraguardusa.com" className="text-blue-900 hover:underline">info@terraguardusa.com</a>
