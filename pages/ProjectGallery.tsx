@@ -26,6 +26,7 @@ const ProjectGallery: React.FC = () => {
         '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (20).jpg',
         '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (21).jpg',
         '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (22).jpg',
+        '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (23).jpg',
       ]
     },
     {
