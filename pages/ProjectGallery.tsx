@@ -18,6 +18,17 @@ const ProjectGallery: React.FC = () => {
 
   const projects: Project[] = [
     {
+      id: 'bdp-del-webb',
+      name: 'BDP Del Webb',
+      description: 'Epoxy quartz flooring system installed across 6,500 sq ft of corridors and common areas at BDP Del Webb. Decorative quartz broadcast in a seamless epoxy matrix, delivering a slip-resistant, easy-to-clean surface built for heavy daily foot traffic.',
+      industry: 'Commercial',
+      images: [
+        '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (20).jpg',
+        '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (21).jpg',
+        '/TerraGuard-Images/projects/BDP Del Webb/BDP Del Webb (Epoxy Quartz) - After (22).jpg',
+      ]
+    },
+    {
       id: 'gti-fabrication',
       name: 'GTI Fabrication',
       description: 'ESD (electrostatic dissipative) flooring system spanning 4,800 sq ft at GTI Fabrication. Static-control coating engineered to protect sensitive electronics and equipment from electrostatic discharge in demanding manufacturing environments.',
